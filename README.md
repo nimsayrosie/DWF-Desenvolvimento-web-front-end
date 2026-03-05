@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://domhelder.edu.br/wp-content/uploads/2025/03/2025-01-28_Logo-Dom-Helder_-Horizontal_Tagline_Branco.png"  />
+  <img height="100" src="https://domhelder.edu.br/wp-content/uploads/2025/03/2025-01-28_Logo-Dom-Helder_-Horizontal_Tagline_Branco.png"  />
 </div>
 
 ###
