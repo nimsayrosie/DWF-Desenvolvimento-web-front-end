@@ -1,61 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu segundo site</title>
+    <title>Conteúdos - Estruturas</title>
 </head>
-
 <body>
+    <h1>Conteúdos</h1>
+    <h2>Tabelas</h2>
+    <h3 id="horario-aula">Horário de aula</h3>
 
-<H3>Lista aninhada</H3>
+    <!--Criando tabela-->
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Horário
 
-<!--Criando lista aninhada-->
-    <ul>
-        <li>Frontend
-            <ul>
-                <li>HTML
+            </th>
+            <th>Segunda
 
-                </li>
-                <li>CSS
+            </th>
+            <th>Terça
 
-                </li>
-            </ul>
-        </li>
+            </th>
+            <th>Quarta
 
-        <li>Backend
-            <ol>
-                <li>Node.js
-                </li>
-                <li>
-                    PHP
-                </li>
+            </th>
+            <th>Quinta
 
-            </ol>
+            </th>
+            <th>Sexta
 
-        </li>
-    </ul>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>08:00-09:40</td>
+            <td>Matemática Discreta</td>
+            <td>Matemática Discreta</td>
+            <td>Design de Interação</td>
+            <td>WEB</td>
+            <td>WEB</td>
+        </tr>
+        <tr>
+            <td>09:40-10:O0</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+        </tr>
+        <tr>
+            <td>10:00-11:40</td>
+            <td>Paradigmas</td>
+            <td>GAAL</td>
+            <td>Paradigmas</td>
+            <td>Português</td>
+            <td>Gaal</td>
+        </tr>
 
-    <!--Colocando imagens-->
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6" align="center">Fim das aukas</td>
+        </tr>
+    </tfoot>
+    <caption>Horário de aulas do curso de Ciência da Computação</caption>
+    </table>
 
-    <figure>
-        <img src="cinna.png" width="300" loading="async">
-        <figcaption>Feliz aniversário Cinnamoroll</figcaption>
-    </figure>
+    <!--Hiperlink-->
 
-    <!--Adicionando vídeos-->
+    <h3>Trabalhando com hiperlinks</h3>
+    <a href="https://www.youtube.com/watch?v=q0YqBa1uhCs" title="Cinnamoroll" target="_blank">Cinnamoroll</a>
 
-    <video src="336603_small.mp4" controls width="600" height="340"> 
-    </video>
+    <!--Adicionando pdf-->
+    <h3>Adicionando PDF</h3>
+    
+    <a href="Algebra-Linear-I_Vol-1.pdf" title="Algebra-Linear-book" target="_blank">Ebook Algebra</a>
+    </a>
 
-    <!--Copiando iframe do youtube-->
+    <h3>Conteúdos one</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic soluta tempora quae nulla qui beatae eius facere voluptatibus neque dolorum! Deleniti quisquam facilis iste sed nemo! Iste nostrum dicta nisi?</p>
 
-    <iframe width="1081" height="608" src="https://www.youtube.com/embed/iK8FdLT45W4?list=RDiK8FdLT45W4" title="シナモロール「ときめきレインボー」Official Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <iframe width="1079" height="608" src="https://www.youtube.com/embed/BJnmk-oUW_k" title="Cinnamoroll dancing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+    <a href="#horario-aula">Voltar para o horário de aula</a> <!--Link para o horário de aula-->
 
 </body>
-
 </html>
